@@ -1,5 +1,5 @@
 
-fun <T : Comparable<T>> MutableList<T>.bubbleSort() {
+fun <T : Comparable<T>> MutableList<T>.insertionSort() {
     for (next in 1 until size) {
         var cur = next - 1
         val curValue = this[next]
